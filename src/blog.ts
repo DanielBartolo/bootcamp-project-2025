@@ -1,4 +1,4 @@
-const blogContainer = document.getElementById('blog-container');
+const blogContainer = document.getElementById("blog-container");
 
 type Blog = {
   title: string;
@@ -14,7 +14,7 @@ const blogs: Blog[] = [
     title: "My Car",
     date: "2025-11-01",
     description:
-      "I have a 2015 Infiniti q50. I've only done cosmetic mods to it, no performance. I currently have it wrapped in a Glossy Gold Puprle color as the bottom half and a Sparkly Black color as the top half. It is sitting on Aodhand DS02's, 19x9.5 +22 all around. It's also on Airlift 3P. I also have carbon fiber pieces such as mirror caps and the trunk. Additionally, it just had side skirts, front lip, diffuser, diffuser extensions, and a rear-window spoiler. Also, the headlights are retrofitted!",
+      "I have a 2015 Infiniti q50. I've only done cosmetic mods to it, no performance. I currently have it wrapped in a Glossy Gold Purple color as the bottom half and a Sparkly Black color as the top half. It is sitting on Aodhand DS02's, 19x9.5 +22 all around. It's also on Airlift 3P. I also have carbon fiber pieces such as mirror caps and the trunk. Additionally, it just had side skirts, front lip, diffuser, diffuser extensions, and a rear-window spoiler. Also, the headlights are retrofitted!",
     image: "images/IMG_7757.jpg",
     imageAlt: "Car Picture",
     slug: "my-first-bootcamp-post",
@@ -36,12 +36,12 @@ blogs.forEach((blog) => {
   blogElement.className = "blog-card";
 
   const title = document.createElement("h2");
-  title.className = "blog-title"
+  title.className = "blog-title";
   title.textContent = blog.title;
   title.innerHTML = `<a href="blogs/${blog.slug}.html">${blog.title}</a>`;
 
   const date = document.createElement("p");
-  date.className = "blog-date"
+  date.className = "blog-date";
   date.textContent = blog.date;
 
   const image = document.createElement("img");
@@ -53,7 +53,7 @@ blogs.forEach((blog) => {
   description.className = "blog-description";
   description.textContent = blog.description;
 
-  blogElement.append(title, image, date, description)
+  blogElement.append(title, image, date, description);
 
   blogContainer?.appendChild(blogElement);
 });
