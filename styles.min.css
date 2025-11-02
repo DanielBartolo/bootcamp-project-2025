@@ -102,7 +102,7 @@ main {
 }
 
 /* CSS for Resume */
-a[download]{
+a[download] {
   display: inline-block;
   padding: 10px 20px;
   background-color: white;
@@ -110,11 +110,10 @@ a[download]{
   text-decoration: none;
   border-radius: 5px;
   margin-bottom: 25px;
-
 }
 
 a[downlaod]:hover {
-  color:blue;
+  color: blue;
 }
 
 /*CSS for Contact */
@@ -138,7 +137,7 @@ textarea {
 
 /*CSS for Blog */
 
-.blog-card{
+.blog-card {
   display: block;
   border: 3px solid;
   border-radius: 14px;
@@ -146,28 +145,34 @@ textarea {
   margin-bottom: 25px;
 }
 
-.blog-title{
+.blog-title {
   display: flex;
   font-size: 1.5em;
   margin: 10px bottom;
 }
 
-.blog-image{
+.blog-image {
   border: 2px solid;
   display: flex;
   max-width: 350px;
   height: auto;
 }
 
-
-.blog-date{
-  display: flex;
-  font-size: 1em;
-  margin-bottom:10px;
-}
-
-.blog-description{
+.blog-date {
   display: flex;
   font-size: 1em;
   margin-bottom: 10px;
+}
+
+.blog-description {
+  display: flex;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.post-image {
+  border: 2px solid;
+  display: flex;
+  max-width: 350px;
+  height: auto;
 }
