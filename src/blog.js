@@ -23,7 +23,7 @@ blogs.forEach(function (blog) {
     var title = document.createElement("h2");
     title.className = "blog-title";
     title.textContent = blog.title;
-    title.innerHTML = "<a href=#{blog.slug}.html>".concat(blog.title, "</a>");
+    title.innerHTML = "<a href=\"blogs/".concat(blog.slug, ".html\">").concat(blog.title, "</a>");
     var date = document.createElement("p");
     date.className = "blog-date";
     date.textContent = blog.date;

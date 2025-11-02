@@ -38,7 +38,7 @@ blogs.forEach((blog) => {
   const title = document.createElement("h2");
   title.className = "blog-title"
   title.textContent = blog.title;
-  title.innerHTML = `<a href=#{blog.slug}.html>${blog.title}</a>`;
+  title.innerHTML = `<a href="blogs/${blog.slug}.html">${blog.title}</a>`;
 
   const date = document.createElement("p");
   date.className = "blog-date"
