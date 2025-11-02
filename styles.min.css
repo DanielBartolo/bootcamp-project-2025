@@ -136,3 +136,38 @@ textarea {
   resize: none;
 }
 
+/*CSS for Blog */
+
+.blog-card{
+  display: block;
+  border: 3px solid;
+  border-radius: 14px;
+  padding: 12px;
+  margin-bottom: 25px;
+}
+
+.blog-title{
+  display: flex;
+  font-size: 1.5em;
+  margin: 10px bottom;
+}
+
+.blog-image{
+  border: 2px solid;
+  display: flex;
+  max-width: 350px;
+  height: auto;
+}
+
+
+.blog-date{
+  display: flex;
+  font-size: 1em;
+  margin-bottom:10px;
+}
+
+.blog-description{
+  display: flex;
+  font-size: 1em;
+  margin-bottom: 10px;
+}
